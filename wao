@@ -23,7 +23,7 @@
             :WaitForChild("updateInventory"):FireServer("eue", Weapon)
     end
     spawn(function()
-     while wait(.5) do
+     while wait(1) do
        if AutoLayGhe then
            if not fireclickdetector(workspace.Ghe:GetChildren()[17].hitbox.ClickDetector) then
            GetBackpack('Ghe')
